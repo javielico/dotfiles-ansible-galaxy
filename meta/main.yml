@@ -1,0 +1,28 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: dotfiles
+  author: javielico
+  description: Dotfile installation for my dev env.
+  company: "javielico"
+  license: "GPL-3.0-or-later"
+  min_ansible_version: 2.2
+  platforms:
+    - name: GenericUNIX
+      versions:
+        - all
+        - any
+    - name: GenericBSD
+      versions:
+        - all
+        - any
+    - name: GenericLinux
+      versions:
+        - all
+        - any
+  galaxy_tags:
+    - development
+    - system
+    - dotfiles
+    - configuration
